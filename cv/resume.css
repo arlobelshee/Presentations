@@ -6,6 +6,7 @@
 /* //-- yui-grids style overrides -- */
 body { font-family: Georgia; color: #444; }
 #inner { padding: 10px 80px; margin: 80px auto; background: #f5f5f5; border: solid #666; border-width: 8px 0 2px 0; }
+@media print { #inner { border-width: 0; margin: 0; background: none; } }
 .yui-gf { margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
 
 /* //-- header, body, footer -- */
@@ -36,6 +37,7 @@ p.enlarge span { color: #000 }
 
 a#pdf { display: block; float: left; background: #666; color: white; padding: 6px 12px 6px 12px; margin-bottom: 6px; text-decoration: none;  }
 a#pdf:hover { background: #222; }
+@media print { a#pdf {display:none;} }
 
 img.qr-code { display: block; float: right; width: 6.7em; }
 img.results { display: block; float: right; width: 18.0em; margin-left: 1.0em; }
