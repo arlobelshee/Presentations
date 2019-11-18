@@ -40,7 +40,7 @@ a#pdf:hover { background: #222; }
 @media print { a#pdf {display:none;} }
 
 img.qr-code { display: block; float: right; width: 6.7em; }
-img.results { display: block; float: right; width: 18.0em; margin-left: 1.0em; }
+img.results { display: block; float: right; width: 24.0em; margin-left: 1.0em; }
 
 .job { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
 .job.last { margin-bottom: 0; padding-bottom: 0; }
