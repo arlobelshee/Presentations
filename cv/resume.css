@@ -46,7 +46,12 @@ img.results { display: block; float: right; width: 24.0em; margin-left: 1.0em; }
 .job.last { margin-bottom: 0; padding-bottom: 0; }
 .job h4 { position: absolute; top: 0.35em; right: 0 }
 .job p { margin: 0.75em 0; }
-.job blockquote { border-left: 3px solid #cecece; padding-left: 0.75em; }
+.job blockquote { border-left: 3px solid #cecece; padding-left: 0.75em; clear: both; }
+.job ul { padding-left: 1.2em; }
+.job ul li { border: none; list-style: circle outside; display: list-item; }
+/* .job .responsiblities { margin: .8em 0; display: grid; grid-template-columns: 1fr 1fr; column-gap: 1em; place-items: stretch; }
+.job .responsiblities ul { display: contents; }
+.job .responsiblities ul li { border: 1px solid #ccc; display: block; } */
 
 .last { border: none; margin-bottom: 0; }
 .skills-list {  }
